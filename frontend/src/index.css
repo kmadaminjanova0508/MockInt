@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.active hr{
+    display: block;
+    transform: scaleX(1);
+    transition: transform 0.3s ease-in-out;
+ 
+}
+hr {
+    display: none;
+    transform: scaleX(0);
+  }
