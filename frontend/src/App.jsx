@@ -8,6 +8,7 @@ import Experts from './pages/Experts'
 import Navbar from './components/Navbar'
 import Faq from './pages/faq'
 import Login from './pages/Login'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/directions' element={<Directions/>}/>
+        <Route path='/directions' element={<Directions />}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/experts' element={<Experts/>}/>
         <Route path='/contact' element={<Contact/>}/>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/login' element={<Login/>}/>
 
       </Routes>
+      <Footer/>
     </div> 
   )
 }
